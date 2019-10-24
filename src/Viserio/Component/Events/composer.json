@@ -27,10 +27,11 @@
     "require": {
         "php": "^7.3",
         "psr/event-dispatcher": "^1.0.0",
+        "fig/event-dispatcher-util": "^1.0.0",
         "viserio/events-contract": "self.version"
     },
     "provide": {
-        "psr/event-manager-implementation": "^1.0"
+        "psr/event-manager-implementation": "^1.0.0"
     },
     "require-dev": {
         "mockery/mockery": "^1.2.3",
